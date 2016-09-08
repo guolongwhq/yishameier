@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="js/function.js"></script>
+	<script src="js/animate.js"></script>
+	<script src="js/fwcx.js"></script>
+</head>
+<style>
+	.box{
+		width: 387px;
+		height: 243px;
+		background: url("./imgs/jc.jpg") no-repeat;
+		position: absolute;
+		margin:auto;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.tishi{
+		width: 315px;
+		height: 100px;
+		background: #fff;
+		border:1px solid #E6E6E6;
+		margin-left: 35px;
+	}
+	.tishi a{
+		display: block;
+		width: 315px;
+		height: 30px;
+		color: red;
+		text-align: center;
+		line-height: 30px;
+		font-size: 12px;
+		text-decoration: none;
+	}
+	.tishi p{
+		width: 315px;
+		height: 20px;
+		color: #000;
+		text-align: center;
+		line-height: 20px;
+		font-size: 12px;
+		margin: 5px;
+	}
+	.tishi span{
+		width: 60px;
+		height: 20px;
+		color: #000;
+		text-align: center;
+		line-height: 20px;
+		font-size: 12px;
+		margin-left: 5px;
+		float: left;
+	}
+	.inb{
+		width: 50px;
+		height: 20px;
+		border:1px solid #2EA144;
+		float: left;
+		margin-left: 4px;
+	}
+	.inb input{
+		width: 50px;
+		height: 18px;
+		color: #000;
+		text-align: center;
+		line-height: 20px;
+		font-size: 12px;		
+		float: left;
+		border:0;
+	}
+	.btnl{
+		width: 70px;
+		height: 30px;		
+		float: right;
+		margin-right: 35px;
+		margin-top: 10px;
+	}
+	.btnl input{
+		width: 70px;
+		height: 30px;
+		border:0;
+		background: #325DA1;
+		color: #fff;
+	}
+	.btnr{
+		width: 70px;
+		height: 30px;	
+		float: right;
+		margin-top: 10px;
+		margin-right: 10px;
+	}
+	.btnr input{
+		width: 70px;
+		height: 30px;
+		border:0;
+		background: #325DA1;
+		color: #fff;
+	}
+</style>
+<body>
+	<div class="box">
+		<div class="tishi">
+			<a href="">防伪查询提示:</a>
+			<p>验证产品真伪:请在下面验证框中输入防伪验证码</p>
+			<span>防伪号码:</span>
+			<div class="inb"><input type="text"></div>
+			<div class="inb"><input type="text"></div>
+			<div class="inb"><input type="text"></div>
+			<div class="inb"><input type="text"></div>
+		</div>
+		<div class="btnl"><input type="reset" value="重置"></div>
+		<div class="btnr"><input type="button" value="查询"></div>		
+	</div>
+</body>
+</html>

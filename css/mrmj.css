@@ -1,0 +1,684 @@
+body,ul,li,h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:0;
+}
+body{
+	width: 100%;
+	height: auto;
+	background: #000;
+}
+.yemian{
+	width: 100%;
+	height: 139px;
+	background: #000;
+	position: fixed;
+	top: 0;
+	z-index: 200;
+	margin: 0 auto;
+}
+/*头部开始*/
+.head{
+	width: 100%;
+	height: 107px;
+	margin: 0 auto;
+}
+.logo{
+	width: 950px;
+	height: 107px;
+	margin: 0 auto;
+	position: relative;
+}
+.logo1{
+	width: 187px;
+	height: 82px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.logo1 a{
+	display: block;
+	width: 187px;
+	height: 82px;
+	text-align: center;
+	background: url("../imgs/shouye/1.jpg") no-repeat -38px -30px;
+}
+.logo2{
+	width: 758px;
+	height: 107px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.logo2 a{
+	display: block;
+	width: 80px;
+	height: 20px;
+	line-height: 20px;
+	color: #999;
+	position: absolute;
+	right: 0;
+	top: 20px;
+	font-size: 12px;
+	text-align: right;
+}
+/*头部结束*/
+
+/***************************************************************/
+/*导航开始*/
+.swpz{
+	width: 100%;
+	height: 32px;
+	z-index: 99;
+	position: relative;
+}
+.swpzbox{
+	width: 950px;
+	height: 100%;
+	margin: 0 auto;
+}
+.swpzl{
+	width: 447px;
+	height: 32px;
+	float: left;
+}
+.swpzl .swpzlout{
+	width: 447px;
+	/*height: 32px;*/
+}
+.swpzl .swpzlout .swpzlin{
+	/*width: 88px;*/
+	height: 32px;
+	float: left;
+	display: block;
+}
+.swpzl .swpzlout .swpzlin #swpzas{
+	display: block;
+	width: 88px;
+	height: 32px;
+	line-height: 32px;
+	color: #999;
+	float: left;
+	font-size: 12px;
+}
+.swpzl .swpzlout .swpzlin #swpzas:hover{
+	color: #fff;
+}
+.swpzr{
+	width: 403px;
+	height: 32px;
+	float: right;
+}
+.swpzr .swpzlout{
+	width: 447px;
+	/*height: 32px;*/
+}
+.swpzr .swpzlout .swpzlin{
+	/*width: 88px;*/
+	height: 32px;
+	float: left;
+	display: block;
+}
+.swpzr .swpzlout .swpzlin #swpzas{
+	display: block;
+	width: 88px;
+	height: 32px;
+	line-height: 32px;
+	color: #999;
+	float: left;
+	font-size: 12px;
+}
+.swpzr .swpzlout .swpzlin #swpzas:hover{
+	color: #fff;
+}
+/*导航结束*/
+
+/******************************************************************8*/
+
+
+/*首页选项卡开始*/
+.swpzl .swpzlout .swpzlin .swpzlcn{
+	width: 100%;
+	height: 350px;
+	background: #fff;
+	position: absolute;
+	top: 32px;
+	left: 0;
+	display: none;
+}
+.swpzlcn1{
+	width: 950px;
+	height: 200px;
+	margin: 0 auto;
+}
+.swpzlcn1 li{
+	width: 290px;
+	height: 200px;
+	margin-right: 40px;
+	float: left;
+}
+.swpzlcn1 li p{
+	width: 290px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 3px solid #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.swpzlcn1 li a{
+	display: block;
+	width: 145px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	color: #777;
+}
+.swpzlcn1 .swpzlcn1b{
+	width: 290px;
+	height: 200px;
+	margin-right: 40px;
+	float: left;
+}
+.swpzlcn1 .swpzlcn1b p{
+	width: 290px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 3px solid #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.swpzlcn1 .swpzlcn1b a{
+	display: block;
+	width: 145px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	color: #777;
+	float: left;
+}
+.swpzlcn1 .swpzlcn1a{
+	width: 290px;
+	height: 200px;
+	margin-right:0px;
+	float: left;
+}
+.swpzlcn2{
+	width: 100%;
+	height: 150px;
+	margin: 0 auto;
+	border-top:1px solid #ccc;
+}
+.swpzlcn2 ul{
+	width: 950px;
+	height: 150px;
+	margin: 0 auto;
+}
+.swpzlcn2 ul li{
+	width: 315px;
+	height: 149px;
+	float: left;
+	border-right:1px solid #ccc;
+}
+.swpzlcn2 ul li a{
+	display: block;
+	width: 290px;
+	height: 90px;
+	float: left;
+	margin-top: 29px;
+	margin-left: 12px;
+}
+.swpzlcn2 ul .swpzlcn2a{
+	width: 315px;
+	height: 149px;
+	float: left;
+	border-right:1px solid #ccc;
+	border-left:1px solid #ccc;
+}
+
+/*****************************************/
+
+.swpzl .swpzlout .swpzlin .swpzlcna{
+	width: 100%;
+	height: 200px;
+	background: #fff;
+	position: absolute;
+	top: 32px;
+	left: 0;
+	display: none;
+}
+.swpzlcna1{
+	width: 950px;
+	height: 200px;
+	margin: 0 auto;
+}
+.swpzlcna1 li{
+	width: 217px;
+	height: 200px;
+	margin-right: 20px;
+	float: left;
+}
+.swpzlcna1 li p{
+	width: 217px;
+	height: 30px;
+	line-height: 30px;
+	border-bottom: 3px solid #000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.sw{
+	width: 217px;
+	height: 65px;
+	margin-bottom: 10px;
+}
+.sw:hover{
+	background: #FCD8F0;
+}
+.swl{
+	width: 65px;
+	height: 65px;
+	float: left;
+}
+.swl a img{
+	display: block;
+	width: 55px;
+	height: 55px;
+}
+.swr{
+	width: 150px;
+	height: 65px;
+	float: left;
+}
+.swr1{
+	width: 100%;
+	height: 20px;	
+}
+.swr1 a{
+	display: block;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	color: #777;
+	font-size: 12px;
+	font-weight: 600;
+	overflow: hidden;	
+}
+.swr2{
+	width: 100%;
+	height: 45px;	
+}
+.swr2 a{
+	display: block;
+	width: 100%;
+	height: 45px;
+	line-height: 16px;
+	color: #777;
+	font-size: 12px;
+	word-break:break-all;
+	overflow: hidden;	
+}
+.sw1{
+	width: 217px;
+	height: 65px;
+	margin-bottom: 10px;
+}
+.sw1:hover{
+	background: #FCD8F0;
+}
+.sw1l{
+	width: 65px;
+	height: 65px;
+	float: left;
+}
+.sw1l a img{
+	display: block;
+	width: 45px;
+	height: 45px;
+}
+.sw1r{
+	width: 150px;
+	height: 65px;
+	float: left;
+}
+.swr1{
+	width: 100%;
+	height: 20px;	
+}
+.sw1r1 a{
+	display: block;
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	color: #777;
+	font-size: 12px;
+	font-weight: 600;
+	overflow: hidden;	
+}
+.sw1r2{
+	width: 100%;
+	height: 45px;	
+}
+.sw1r2 a{
+	display: block;
+	width: 100%;
+	height: 45px;
+	line-height: 16px;
+	color: #777;
+	font-size: 12px;
+	word-break:break-all;
+	overflow: hidden;	
+}
+
+/*******************/
+
+.swpzl .swpzlout .swpzlin .swpzlcnb{
+	width: 100%;
+	height: 200px;
+	background: #fff;
+	position: absolute;
+	top: 32px;
+	left: 0;
+	display: none;
+}
+.swb{
+	width: 950px;
+	height: 200px;
+	margin:0 auto;
+}
+.swb ul{
+	width: 450px;
+	height: 200px;
+	float: left;
+	margin-right: 25px;
+}
+.swb ul li{
+	width: 450px;
+	height: 200px;
+}
+.swb ul li p{
+	width: 450px;
+	height: 25px;
+	font-weight: bold;
+	font-size: 14px;
+	border-bottom: 3px solid #000;
+}
+.swb ul li a{
+	display: block;
+	width: 200px;
+	height: 20px;
+	float: left;
+	color: #777;
+	line-height: 20px;
+	font-size: 12px;
+}
+.swb .swb2{
+	width: 450px;
+	height: 200px;
+	float: left;
+	margin-right: 25px;
+}
+.swb .swb2 li{
+	width: 450px;
+	height: 200px;
+}
+.swb .swb2 li p{
+	width: 450px;
+	height: 25px;
+	font-weight: bold;
+	font-size: 14px;
+	border-bottom: 3px solid #000;
+}
+.swb .swb2 li a{
+	display: block;
+	width: 450px;
+	height: 20px;
+	color: #777;
+	line-height: 20px;
+	font-size: 12px;
+}
+
+/************************/
+
+.swpzl .swpzlout .swpzlin .swpzlcnc{
+	width: 100%;
+	height: 200px;
+	background: #fff;
+	position: absolute;
+	top: 32px;
+	left: 0;
+	display: none;
+}
+.swc{
+	width: 950px;
+	height: 200px;
+	margin:0 auto;
+}
+.swc ul{
+	width: 450px;
+	height: 200px;
+	float: left;
+	margin-right: 25px;
+}
+.swc ul li{
+	width: 450px;
+	height: 200px;
+}
+.swc ul li p{
+	width: 450px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	border-bottom: 3px solid #000;
+	margin: 10px;
+}
+.swc ul li a img{
+	display: block;
+	width: 444px;
+	height: 144px;
+	margin-left: 10px;
+}
+
+/*******************************/
+
+.swpzr .swpzlout .swpzlin .swpzlcnd{
+	width: 100%;
+	height: 200px;
+	background: #fff;
+	position: absolute;
+	top: 32px;
+	left: 0;
+	display: none;
+}
+.swpzlcnd ul{
+	width: 950px;
+	height: 200px;
+	margin: 0 auto;
+}
+.swpzlcnd ul li{
+	width: 214px;
+	height: 200px;
+	margin-right: 30px;
+	float: left;
+}
+.swpzlcnd ul li p{
+	width: 214px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	border-bottom:3px solid #000;
+	float: left;
+}
+.swpzlcnd ul li a img{
+	display: block;
+	width: 214px;
+	height: 80px;
+}
+.swpzlcnd ul .swd{
+	width: 214px;
+	height: 200px;
+	margin-right: 0px;
+}
+/*首页选项卡结束*/
+
+
+/******************************************************************8*/
+
+/*专柜导航开始*/
+.hz{
+	width: 950px;
+	height:800px;
+	background: #22122D;
+	margin: 30px auto;
+	margin-top: 159px;
+}
+.hztit{
+	width: 900px;
+	height: 99px;
+	margin-left: 25px;
+	border-bottom: 1px dashed #999;
+}
+.hztit a{
+	display: block;
+	width: 900px;
+	height: 99px;
+	font-size: 26px;
+	line-height: 100px;
+	color: #fff;
+	font-weight: bold;
+}
+.hzcn{
+	width: 900px;
+	height: 600px;
+	margin-left: 25px;
+}
+.hzcn li{
+	width: 400px;
+	height:200px;
+	margin-left: 25px;
+	float: left;
+}
+.hzcn li a img{
+	display: block;
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-top: 25px;
+}
+.hzcn li p{
+	width: 250px;
+	height: 100px;
+	float: left;
+	color: #fff;
+	font-size: 14px;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+.hzcn li p:hover{
+	color: #D3BF7A;
+}
+.hzurl{
+	width: 500px;
+	height: 20px;
+	margin: 0 auto;
+}
+.hzurl a{
+	display: block;
+	width: 50px;
+	height: 20px;
+	float: left;
+	text-align: right;
+	line-height: 20px;
+	color: #FFFF00;
+	font-size: 12px;
+}
+.hzurl a:hover{
+	color: #fff;
+}
+.hzurl span{
+	display: block;
+	width: 200px;
+	height: 20px;
+	float: left;
+	text-align: right;
+	line-height: 20px;
+	color: #999;
+	font-size: 12px;
+}
+/*专柜导航结束*/
+
+/****************************************************************/
+
+/*页脚开始*/
+.yejiao{
+	width: 950px;
+	height: 30px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.yejiaoa{
+	width: 300px;
+	height: 30px;
+	float: left;
+}
+.yejiaoa li{
+	width: 70px;
+	height: 30px;
+	float: left;
+}
+.yejiaoa li a{
+	display: block;
+	width: 55px;
+	height: 30px;
+	text-align: left;
+	line-height: 30px;
+	color: #fff;
+	float: left;
+	font-size: 12px;
+}
+.yejiaoa li span{
+	display: block;
+	height: 30px;
+	text-align: left;
+	line-height: 30px;
+	color: #999;
+	float: left;
+}
+.yejiaob{
+	width: 300px;
+	height: 30px;
+	float: left;
+}
+.yejiaob a{
+	display: block;
+	width: 300px;
+	height: 30px;
+	text-align: right;
+	line-height: 30px;
+	float: left;
+	font-size: 12px;
+	color:#5A5A58;
+}
+.yejiaoc{
+	width: 350px;
+	height: 30px;
+	float: left;
+}
+.yejiaoc a{
+	display: block;
+	width: 350px;
+	height: 30px;
+	text-align: right;
+	line-height: 30px;
+	float: left;
+	font-size: 12px;
+	color:#5A5A58;
+}
+/*页脚结束*/
+
+/**************************************************/
+
